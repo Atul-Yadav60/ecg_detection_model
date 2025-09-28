@@ -1,0 +1,22 @@
+{
+  "best_mapping_name": "Original",
+  "corrected_mapping": {
+    "N": 0,
+    "V": 1,
+    "S": 2,
+    "F": 3,
+    "Q": 4
+  },
+  "reverse_mapping": {
+    "0": "N",
+    "1": "V",
+    "2": "S",
+    "3": "F",
+    "4": "Q"
+  },
+  "final_accuracy": 0.7983389648530016,
+  "validation_samples": 31667,
+  "data_source": "Final Test Data",
+  "model_architecture": "MobileNetV1_ECG_Robust",
+  "model_parameters": 1145597
+}

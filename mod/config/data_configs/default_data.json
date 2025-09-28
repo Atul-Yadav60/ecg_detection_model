@@ -1,0 +1,46 @@
+{
+  "datasets": {
+    "mit_bih": {
+      "url": "https://physionet.org/files/mitdb/1.0.0/",
+      "sampling_rate": 360,
+      "duration_seconds": 30,
+      "classes": [
+        "N",
+        "S",
+        "V",
+        "F",
+        "Q"
+      ]
+    }
+  },
+  "preprocessing": {
+    "filtering": {
+      "lowpass": 40,
+      "highpass": 0.5,
+      "notch": 50
+    },
+    "normalization": "robust_scaler",
+    "segmentation": {
+      "window_size": 5000,
+      "overlap": 0.5
+    }
+  },
+  "augmentation": {
+    "noise_std": 0.01,
+    "amplitude_scale": [
+      0.8,
+      1.2
+    ],
+    "time_stretch": [
+      0.9,
+      1.1
+    ],
+    "baseline_wander": true
+  },
+  "splits": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15,
+    "patient_wise": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-08-28T22:54:49.378384",
+  "config": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "epochs": 50,
+    "weight_decay": 0.0001,
+    "patience": 10,
+    "factor": 0.5,
+    "min_lr": 1e-06
+  },
+  "quick_test": true,
+  "results": {
+    "simple": {
+      "best_val_acc": 87.08520764065455,
+      "best_epoch": 1,
+      "test_results": null
+    },
+    "cnn_lstm": {
+      "best_val_acc": 86.3224460525458,
+      "best_epoch": 4,
+      "test_results": null
+    }
+  }
+}

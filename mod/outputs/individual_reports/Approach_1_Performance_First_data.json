@@ -1,0 +1,24 @@
+{
+  "model_info": {
+    "name": "Approach_1_Performance_First",
+    "epoch": 42,
+    "size_mb": 4.420074462890625,
+    "parameters": 1158696
+  },
+  "performance": {
+    "val_accuracy": 95.66797415782187,
+    "val_f1": 95.69972968152062,
+    "test_accuracy": 95.52101058460474,
+    "test_f1": 95.56131917587673
+  },
+  "gaps": {
+    "generalization_gap": 3.698373206183163,
+    "accuracy_gap": 0,
+    "f1_gap": 0
+  },
+  "deployment": {
+    "inference_time_ms": 0.3829398553309845,
+    "mobile_ready": true,
+    "real_time_ready": true
+  }
+}

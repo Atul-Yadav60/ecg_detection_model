@@ -1,0 +1,71 @@
+{
+  "pipeline_completed": true,
+  "total_samples": 189556,
+  "splits": {
+    "train": {
+      "n_samples": 154540,
+      "n_patients": 33,
+      "class_distribution": {
+        "F": 842,
+        "N": 122474,
+        "Q": 16026,
+        "S": 4658,
+        "V": 10540
+      }
+    },
+    "val": {
+      "n_samples": 15339,
+      "n_patients": 7,
+      "class_distribution": {
+        "F": 366,
+        "N": 13385,
+        "Q": 466,
+        "S": 167,
+        "V": 955
+      }
+    },
+    "test": {
+      "n_samples": 19677,
+      "n_patients": 8,
+      "class_distribution": {
+        "F": 14,
+        "N": 15750,
+        "Q": 2640,
+        "S": 278,
+        "V": 995
+      }
+    }
+  },
+  "encoding_info": {
+    "label_to_idx": {
+      "F": 0,
+      "N": 1,
+      "Q": 2,
+      "S": 3,
+      "V": 4
+    },
+    "idx_to_label": {
+      "0": "F",
+      "1": "N",
+      "2": "Q",
+      "3": "S",
+      "4": "V"
+    },
+    "n_classes": 5,
+    "classes": [
+      "F",
+      "N",
+      "Q",
+      "S",
+      "V"
+    ]
+  },
+  "hardware_optimizations": {
+    "batch_size_recommendations": {
+      "training": 64,
+      "inference": 16
+    },
+    "memory_efficient": true,
+    "mixed_precision_ready": true
+  }
+}

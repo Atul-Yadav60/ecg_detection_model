@@ -1,0 +1,27 @@
+{
+  "project": {
+    "name": "ecg_arrhythmia_detection",
+    "version": "1.0.0",
+    "description": "Real-time ECG arrhythmia detection system",
+    "authors": [
+      "ECG Detection Team"
+    ]
+  },
+  "hardware": {
+    "gpu": "RTX 3050 Laptop GPU",
+    "vram_gb": 4.0,
+    "recommended_batch_sizes": {
+      "training": 64,
+      "inference": 16,
+      "max_safe": 128
+    },
+    "mixed_precision": true,
+    "num_workers": 4
+  },
+  "paths": {
+    "data_root": "./data",
+    "models_root": "./outputs/models",
+    "logs_root": "./experiments/logs",
+    "checkpoints_root": "./experiments/checkpoints"
+  }
+}

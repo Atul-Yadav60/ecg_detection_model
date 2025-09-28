@@ -1,0 +1,15 @@
+{
+  "optimized_accuracy": 0.7554867843496385,
+  "baseline_accuracy": 0.7983,
+  "original_accuracy": 0.16,
+  "improvement_factor": 4.72179240218524,
+  "per_class_accuracy": {
+    "N": 0.7022395791822746,
+    "V": 0.9925595238095238,
+    "S": 1.0,
+    "F": 1.0,
+    "Q": 0.9219274168953949
+  },
+  "inference_time_ms": 0.12782554591530615,
+  "deployment_ready": false
+}

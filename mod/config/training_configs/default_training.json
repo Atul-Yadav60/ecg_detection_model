@@ -1,0 +1,33 @@
+{
+  "model": {
+    "architecture": "cnn_lstm",
+    "input_length": 5000,
+    "num_classes": 5,
+    "channels": 1
+  },
+  "training": {
+    "batch_size": 64,
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "mixed_precision": true,
+    "gradient_accumulation_steps": 1,
+    "max_grad_norm": 1.0
+  },
+  "optimization": {
+    "optimizer": "adamw",
+    "scheduler": "cosine",
+    "warmup_epochs": 5,
+    "min_lr": 1e-06
+  },
+  "regularization": {
+    "dropout": 0.3,
+    "label_smoothing": 0.1,
+    "mixup_alpha": 0.2
+  },
+  "early_stopping": {
+    "patience": 15,
+    "monitor": "val_f1",
+    "mode": "max"
+  }
+}

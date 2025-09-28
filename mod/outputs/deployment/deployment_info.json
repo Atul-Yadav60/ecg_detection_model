@@ -1,0 +1,35 @@
+{
+  "model_name": "mobilenet",
+  "input_size": 1000,
+  "num_classes": 5,
+  "class_names": [
+    "F",
+    "N",
+    "Q",
+    "S",
+    "V"
+  ],
+  "inference_time_ms": 0.8513904600957412,
+  "accuracy_percent": 89.70927549607752,
+  "f1_score_percent": 90.28823532113483,
+  "generalization_gap_percent": 3.5142139400683448,
+  "real_time_ready": true,
+  "model_size_mb": 3.680561065673828,
+  "preprocessing_steps": [
+    "Normalize ECG signal to [-1, 1] range",
+    "Ensure 1000 time steps (pad or truncate)",
+    "Convert to torch.FloatTensor",
+    "Add batch dimension if single sample"
+  ],
+  "deployment_files": [
+    "mobilenet_traced.pt",
+    "mobilenet_quantized.pt",
+    "deployment_info.json"
+  ],
+  "training_config": {
+    "width_multiplier": 0.55,
+    "dropout_rate": 0.5,
+    "label_smoothing": 0.15,
+    "regularization_strength": 0.0008
+  }
+}

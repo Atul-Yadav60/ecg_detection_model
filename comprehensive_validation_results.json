@@ -1,0 +1,72 @@
+{
+  "file_validation": {
+    "model.json": {
+      "exists": true,
+      "size_kb": 11.5302734375,
+      "description": "Model architecture"
+    },
+    "group1-shard1of2.bin": {
+      "exists": true,
+      "size_kb": 4096.0,
+      "description": "Model weights part 1"
+    },
+    "group1-shard2of2.bin": {
+      "exists": true,
+      "size_kb": 1539.51953125,
+      "description": "Model weights part 2"
+    },
+    "model_info.json": {
+      "exists": true,
+      "size_kb": 0.8447265625,
+      "description": "Model specifications"
+    },
+    "web_usage_example.js": {
+      "exists": true,
+      "size_kb": 2.8203125,
+      "description": "Web implementation"
+    },
+    "react_native_usage_example.js": {
+      "exists": true,
+      "size_kb": 3.9677734375,
+      "description": "React Native implementation"
+    }
+  },
+  "structure_valid": true,
+  "model_info": {
+    "model_name": "Focused 90% ECG Classifier",
+    "original_format": "PyTorch (.pth)",
+    "converted_format": "TensorFlow.js (.json + .bin)",
+    "architecture": "Custom CNN for ECG Classification",
+    "input_shape": [
+      1,
+      1000,
+      1
+    ],
+    "output_classes": 5,
+    "class_names": [
+      "Normal",
+      "AFib",
+      "Other",
+      "Noise",
+      "Unclassified"
+    ],
+    "preprocessing": "Z-score normalization",
+    "accuracy": "80%+ (validated)",
+    "conversion_date": "2024",
+    "compatibility": {
+      "web": "@tensorflow/tfjs",
+      "react_native": "@tensorflow/tfjs-react-native"
+    },
+    "usage_notes": [
+      "Input must be exactly 1000 samples",
+      "Z-score normalization is required",
+      "Model expects float32 input",
+      "Output is softmax probabilities"
+    ],
+    "conversion_method": "Training-based conversion with realistic ECG data"
+  },
+  "preprocessing_results": {
+    "Normal ECG": {
+      "mean": 0.0,
+      "std": 1.0,
+      "valid": 
