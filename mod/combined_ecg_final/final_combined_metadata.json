@@ -1,0 +1,66 @@
+{
+  "creation_info": {
+    "timestamp": "2025-08-29T16:32:55.889412",
+    "total_samples": 211110,
+    "signal_shape": [
+      211110,
+      1000
+    ],
+    "signal_length": 1000,
+    "total_classes": 5
+  },
+  "original_dataset": {
+    "total_samples": 154540,
+    "class_distribution": {
+      "F": 842,
+      "N": 122474,
+      "Q": 16026,
+      "S": 4658,
+      "V": 10540
+    },
+    "source_splits": [
+      "train",
+      "val",
+      "test"
+    ]
+  },
+  "ptb_xl_dataset": {
+    "total_samples": 21554,
+    "contribution_by_class": {
+      "N": 15680,
+      "S": 870,
+      "V": 950,
+      "Q": 2727,
+      "F": 1327
+    }
+  },
+  "combined_dataset": {
+    "total_samples": 211110,
+    "final_class_distribution": {
+      "N": 167289,
+      "S": 5973,
+      "V": 13440,
+      "Q": 21859,
+      "F": 2549
+    },
+    "source_distribution": {
+      "original": 189556,
+      "ptb_xl": 21554
+    },
+    "improvement_factors": {
+      "N": 1.3659143981579764,
+      "S": 1.2823100042936884,
+      "V": 1.2751423149905123,
+      "Q": 1.3639710470485462,
+      "F": 3.027315914489311
+    },
+    "total_improvement_factor": 1.3660540960269185
+  },
+  "balance_metrics": {
+    "most_frequent_class": "N",
+    "most_frequent_count": 167289,
+    "least_frequent_class": "F",
+    "least_frequent_count": 2549,
+    "imbalance_ratio": 65.62926637897215
+  }
+}

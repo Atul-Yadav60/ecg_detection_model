@@ -1,0 +1,16 @@
+{
+  "test_accuracy": 0.7983389648530016,
+  "training_accuracy": 0.9624,
+  "original_accuracy": 0.16,
+  "improvement_factor": 4.98961853033126,
+  "inference_time_seconds": 4.225303649902344,
+  "samples_tested": 31667,
+  "model_parameters": 1145597,
+  "mapping_used": {
+    "N": 0,
+    "V": 1,
+    "S": 2,
+    "F": 3,
+    "Q": 4
+  }
+}

@@ -1,0 +1,103 @@
+# Node.js / React Native
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+.expo/
+dist/
+coverage/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Xcode
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.xcworkspace/
+ios/*.xcuserstate
+ios/xcshareddata/
+ios/*.hmap
+ios/*.ipa
+ios/*.dSYM.zip
+ios/*.dSYM
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/*.iml
+android/*.hprof
+android/.cxx/
+android/app/release/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML Model files (large files)
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.tflite
+*.onnx
+# Comment the next line if you want to include the TensorFlow.js model in your repo
+# tfjs_model/
+
+# Dataset files (typically large)
+*.csv
+*.dat
+*.npy
+*.npz
+*.pickle
+*.pkl
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temp files
+tmp/
+temp/
+
+# System Files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,33 @@
+{
+  "model_name": "Focused 90% ECG Classifier",
+  "original_format": "PyTorch (.pth)",
+  "converted_format": "TensorFlow.js (.json + .bin)",
+  "architecture": "Custom CNN for ECG Classification",
+  "input_shape": [
+    1,
+    1000,
+    1
+  ],
+  "output_classes": 5,
+  "class_names": [
+    "Normal",
+    "AFib",
+    "Other",
+    "Noise",
+    "Unclassified"
+  ],
+  "preprocessing": "Z-score normalization",
+  "accuracy": "80%+ (validated)",
+  "conversion_date": "2024",
+  "compatibility": {
+    "web": "@tensorflow/tfjs",
+    "react_native": "@tensorflow/tfjs-react-native"
+  },
+  "usage_notes": [
+    "Input must be exactly 1000 samples",
+    "Z-score normalization is required",
+    "Model expects float32 input",
+    "Output is softmax probabilities"
+  ],
+  "conversion_method": "Training-based conversion with realistic ECG data"
+}

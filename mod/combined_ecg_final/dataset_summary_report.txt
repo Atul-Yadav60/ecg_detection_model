@@ -1,0 +1,20 @@
+ECG DATASET COMBINATION SUMMARY REPORT
+==================================================
+
+FINAL COMBINED DATASET:
+Total samples: 211,110
+Signal dimensions: (211110, 1000)
+Classes: 5
+
+CLASS DISTRIBUTION:
+  F: 2,549 (1.2%)
+  N: 167,289 (79.2%)
+  Q: 21,859 (10.4%)
+  S: 5,973 (2.8%)
+  V: 13,440 (6.4%)
+
+IMPROVEMENT SUMMARY:
+Original total: 154,540
+PTB-XL added: 21,554
+Final total: 211,110
+Overall improvement: 1.4x

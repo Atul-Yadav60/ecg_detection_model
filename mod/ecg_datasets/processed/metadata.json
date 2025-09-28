@@ -1,0 +1,23 @@
+{
+  "total_samples": 21554,
+  "signal_shape": [
+    1000
+  ],
+  "unique_labels": [
+    "N",
+    "F",
+    "Q",
+    "S",
+    "V"
+  ],
+  "class_counts": {
+    "N": 15680,
+    "F": 1327,
+    "Q": 2727,
+    "S": 870,
+    "V": 950
+  },
+  "datasets_used": [
+    "ptb_xl"
+  ]
+}

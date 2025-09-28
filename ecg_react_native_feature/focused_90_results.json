@@ -1,0 +1,15 @@
+{
+  "test_accuracy": 0.9904948368964537,
+  "validation_accuracy": 0.9789410348977136,
+  "baseline_accuracy": 0.7983,
+  "improvement": 0.19219483689645367,
+  "per_class_accuracy": {
+    "N": 0.9915119151988523,
+    "V": 0.9990079365079365,
+    "S": 1.0,
+    "F": 1.0,
+    "Q": 0.9737724916132967
+  },
+  "target_achieved": true,
+  "timestamp": "2025-09-06 14:42:20"
+}

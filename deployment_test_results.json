@@ -1,0 +1,8 @@
+{
+  "deployment_ready": true,
+  "timestamp": "2025-09-14 21:38:48",
+  "preprocessing_performance": {
+    "total_time": 0.02679753303527832,
+    "per_sample_time": 2.679753303527832e-05,
+    "fps": 37316.86788793295,
+    "mean_validation": 

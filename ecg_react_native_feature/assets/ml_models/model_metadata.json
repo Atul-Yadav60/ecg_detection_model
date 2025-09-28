@@ -1,0 +1,43 @@
+{
+  "modelInfo": {
+    "name": "MobileNet v1 ECG Optimized 90+",
+    "version": "2.1.0",
+    "modelFile": "mobilenet_v1_ecg_optimized_90plus.onnx",
+    "accuracy": "90%+",
+    "inputShape": [
+      1000,
+      1
+    ],
+    "outputClasses": 5,
+    "classLabels": {
+      "0": "Normal (N)",
+      "1": "Ventricular (V)",
+      "2": "Supraventricular (S)",
+      "3": "Fusion (F)",
+      "4": "Unknown (Q)"
+    },
+    "optimizations": [
+      "Enhanced training",
+      "90%+ accuracy target",
+      "Mobile optimization"
+    ]
+  },
+  "preprocessing": {
+    "segmentLength": 1000,
+    "normalization": "z-score",
+    "filtering": "bandpass",
+    "sampleRate": 360
+  },
+  "performance": {
+    "targetAccuracy": "90%+",
+    "inferenceTime": "<1ms",
+    "mobileOptimized": true,
+    "deploymentReady": true
+  },
+  "usage": {
+    "framework": "ONNX.js",
+    "platform": "React Native",
+    "inputFormat": "Float32Array",
+    "outputFormat": "Float32Array[5]"
+  }
+}
